@@ -22,7 +22,7 @@ There are a total of 80 variable fields in the dataset, some of which are listed
 7. Neighborhood : Physical locations within the city limits | 
 8. Foundation : Type of foundation | 
 9. ExterCond : Evaluates the present condition of the material on the exterior | 
-10. BsmntQual : Evaluates the heigh of the basement
+10. BsmntQual : Evaluates the height of the basement
 
 ## Findings
 1. GarageCars and GarageArea are highly correlated with each other hence we'll drop one feature from these two which has less correlation value with the sale price. 
@@ -31,4 +31,4 @@ There are a total of 80 variable fields in the dataset, some of which are listed
 4. Also We can drop both FullBath and YearRemodAdd features as well as these feautures inter-correlated with other features.
 
 ## Conclusion
-A total of 24 columns out of the initial 80 variable fields have been dropped since they are not in any case useful for any type of analysis as they do correlate or impact our target field, sale price. In the end after cleaning and analysing our dataset we are finally left with 56 variable fields that can be important to us and maybe loaded in to our database for further investigation.
+A total of 24 columns out of the initial 80 variable fields have been dropped since they are not in any case useful for any type of analysis as they do not correlate or impact our target field, sale price. In the end after cleaning and analysing our dataset we are finally left with 56 variable fields that can be important to us and maybe loaded in to our database for further investigation.
