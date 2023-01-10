@@ -1,4 +1,4 @@
-# Housing-Data-analysis
+# Housing Data analysis
 
 ## Overview
 Applied feature engineering techniques to find the factors that influence price negotiations
